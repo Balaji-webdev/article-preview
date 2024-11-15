@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+*{
+  margin : 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: hsl(210, 46%, 95%) ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 200px;
+
+}
+.container {
+  height: 300px;
+  width: 800px;
+  background-color: white;
+  border-radius: 10px;
+ 
+
+}
+.image img{
+  height: 300px;
+  width: 300px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.content1 h2{
+position: relative;
+top: -270px;
+left: 340px;
+color:hsl(217, 19%, 35%) ;
+word-spacing: 5px;
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 21px;
+
+}
+.content1 p{
+  position: relative;
+top: -250px;
+left: 340px;
+color:hsl(217, 19%, 35%) ;
+font-family: "Manrope", sans-serif;
+font-optical-sizing: auto;
+font-weight: 500;
+font-style: normal;
+word-spacing: 3px;
+font-size: 15px;
+}
+.container2 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.container2 .profile-image img{
+  position: relative;
+  top: -220px;
+  left: 340px;
+  border-radius: 50%;
+  height: 50px;
+}
+.container2 .profile-content p,h4{
+  color: hsl(217, 19%, 35%);
+  position: relative;
+  top: -215px;
+  left: 340px;
+  font-family: "Manrope", sans-serif;
+font-optical-sizing: auto;
+font-weight: 700;
+font-style: normal;
+font-size: 14px
+}
+.container2 .profile-content p {
+  font-weight: 400
+}
+
+
+.share-button{ 
+  background-color: hsl(210, 46%, 95%);
+ border-radius: 50%;
+ padding: 0.6rem;
+ position: relative;
+ top: -220px;
+ left: 500px;
+ height: 40px;
+}
+
+
+
+.share-button:hover  {
+ background-color: hsl(217, 19%, 35%);
+  color : #ffffff;
+}
+
+.share-button:hover path {
+ fill: #ffffff;  
+
+}
+
+.active-toggle-div img{
+ width: 1rem;
+ height: 1rem;
+}
+
+.active-toggle-div p{
+ color: hsl(212, 23%, 69%);
+ letter-spacing: 0.25rem;
+ position: relative;
+ top: 0px;
+ left: 0px;
+}
+
+
+.active-toggle-div {
+
+  background-color: hsl(217, 19%, 35%);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 30%;
+  min-height: 6%;
+  border-radius: 0.65rem;
+  visibility: hidden;
+  position: relative;
+  top: -300px;
+  left: 290px;
+}
+
+.triangle-down {
+
+  border-left: 18px solid transparent;
+  border-right: 18px solid transparent;
+  border-top: 20px solid hsl(217, 19%, 35%);     
+  position: relative;
+  left: 55%;
+  bottom: 250px;
+  visibility: hidden;
+}
